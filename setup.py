@@ -1,0 +1,25 @@
+from setuptools import setup, find_packages
+
+setup(name='mi2rl_slackmsg',
+    version='0.1',
+    url='https://github.com/mi2rl/mi2rl_slack_msg',
+    license='MIT',
+    author='Jongseon Lim',
+    author_email='jslim.mi2rl@gmail.com',
+    description='slack message for mi2rl',
+    classifiers=[
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.2',
+        'Programming Language :: Python :: 3.3',
+        'Programming Language :: Python :: 3.4',
+        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
+    ],
+    packages=find_packages(exclude=[]),
+    long_description=open('README.md').read(),
+    zip_safe=False,
+    keywords=['mi2rl_slack_msg'],
+    python_requires='>=3',
+    install_requires=['requests'],
+)
