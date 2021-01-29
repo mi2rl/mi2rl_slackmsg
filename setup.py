@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(name='mi2rl_slackmsg',
-    version='0.1',
+    version='0.2',
     url='https://github.com/mi2rl/mi2rl_slackmsg',
     license='MIT',
     author='Jongseon Lim',
@@ -21,5 +21,5 @@ setup(name='mi2rl_slackmsg',
     zip_safe=False,
     keywords=['mi2rl_slackmsg'],
     python_requires='>=3',
-    install_requires=['requests'],
+    install_requires=[],
 )
